@@ -1,0 +1,148 @@
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tdunweb' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  vertical-align: middle;
+  font-size:45px;
+
+}
+
+.icon-menu:before {
+  content: "\e905";
+}
+.icon-current:before {
+  content: "\e906";
+}
+.icon-close:before {
+  content: "\e907";
+}
+.icon-rarrow:before {
+  content: "\e911";
+}
+.icon-g01:before {
+  content: "\e900";
+}
+.icon-f01:before {
+  content: "\e908";
+}
+.icon-f04:before {
+  content: "\e901";
+}
+.icon-t02:before {
+  content: "\e902";
+}
+.icon-t01:before {
+  content: "\e903";
+}
+.icon-t07:before {
+  content: "\e904";
+}
+.icon-QQ:before {
+  content: "\e909";
+}
+.icon-top:before {
+  content: "\e90a";
+}
+.icon-vip:before {
+  content: "\e90b";
+}
+.icon-g03:before {
+  content: "\e90c";
+}
+.icon-g02:before {
+  content: "\e90d";
+}
+.icon-s04:before {
+  content: "\e90e";
+}
+.icon-g04:before {
+  content: "\e90f";
+}
+.icon-play:before {
+  content: "\e910";
+}
+.icon-zc:before {
+  content: "\e912";
+}
+.icon-phone:before {
+  content: "\e913";
+}
+.icon-s03:before {
+  content: "\e914";
+}
+.icon-t03:before {
+  content: "\e915";
+}
+.icon-f02:before {
+  content: "\e916";
+}
+.icon-t08:before {
+  content: "\e917";
+}
+.icon-gfip:before {
+  content: "\e918";
+}
+.icon-gffw:before {
+  content: "\e91b";
+}
+.icon-gm:before {
+  content: "\e922";
+}
+.icon-jc:before {
+  content: "\e923";
+}
+.icon-f03:before {
+  content: "\e924";
+}
+.icon-t04:before {
+  content: "\e925";
+}
+.icon-s02:before {
+  content: "\e926";
+}
+.icon-kuai:before {
+  content: "\e927";
+}
+.icon-free:before {
+  content: "\e929";
+}
+.icon-gz:before {
+  content: "\e92a";
+}
+.icon-t05:before {
+  content: "\e92b";
+}
+.icon-wc:before {
+  content: "\e92c";
+}
+.icon-qcode:before {
+  content: "\e92d";
+}
+.icon-s01:before {
+  content: "\e92e";
+}
+.icon-circle:before {
+  content: "\e92f";
+}
+.icon-t06:before {
+  content: "\e930";
+}
+.icon-arrow:before {
+  content: "\e931";
+}
+.icon-reg:before {
+  content: "\e932";
+}
+.icon-fw:before {
+  content: "\e933";
+}

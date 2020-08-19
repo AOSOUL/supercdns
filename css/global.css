@@ -1,7 +1,8 @@
 @charset "utf-8";
 /*css global*/
 *{margin:0;padding:0; box-sizing: border-box;}
-html { -webkit-text-size-adjust: 100%;
+html { 
+  -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -131,12 +132,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
  li.swiper-pagination-bullet{background: none;width:auto;height:100%;opacity: 1;border-radius: 0;}
  li.swiper-pagination-bullet-active{ background: none;border-radius: 0;outline:none; }
 
-
-
-
-
 .tdun_con dd{width:835px;padding:0 20px;}
-
 .tdun_con dd h4{font-size:14px;margin-top:15px;}
 .tdun_con dd p{color:#666;}
 .tdun_con dd .detail{margin-bottom:20px;}
@@ -364,6 +360,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 .social-share{text-align: right;margin:50px 0 100px 0;}
 .social-share .icon-qq:before{content:""!important;}
 .spacebox{position: relative;margin:90px 0 70px 0;}
+
 /*app*/
 @media (max-width: 768px){ 
 	body{font-size:.85rem;}
@@ -383,19 +380,16 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
     .topbar .logo{width:60px;}
     .topbar .login-link{ vertical-align: top; position: absolute;right:10px;}
     .topbar .login-link a{margin-left:15px;}
-	.register_a{padding:5px 8px;}
-	.swiper-container{margin:45px auto;}
-	
-	
+    .register_a{padding:5px 8px;}
  
 
-	.banner_01 .con{background:#000111 url("../images/banner01.png"/*tpa=http://www.kirincloud.net/images/banner01.png*/) right 75% no-repeat;background-size: 50% auto;}
+	.banner_01 .con{background:#000111 url("https://cdn.jsdelivr.net/gh/AOSOUL/supercdns@master/banner01.png"/*tpa=http://www.kirincloud.net/images/banner01.png*/) right 75% no-repeat;background-size: 50% auto;}
 
-	.banner_02 .con{background:#000543 url("../images/banner02.png"/*tpa=http://www.kirincloud.net/images/banner02.png*/) right 75% no-repeat;background-size:50% auto;}
+	.banner_02 .con{background:#000543 url("https://cdn.jsdelivr.net/gh/AOSOUL/supercdns@master/banner02.png"/*tpa=http://www.kirincloud.net/images/banner02.png*/) right 75% no-repeat;background-size:50% auto;}
 
-	.banner_03 .con{background:#14004d url("../images/banner03.png"/*tpa=http://www.kirincloud.net/images/banner03.png*/) right 75% no-repeat;background-size:50% auto;}
+	.banner_03 .con{background:#14004d url("https://cdn.jsdelivr.net/gh/AOSOUL/supercdns@master/banner03.png"/*tpa=http://www.kirincloud.net/images/banner03.png*/) right 75% no-repeat;background-size:50% auto;}
 	.banner_index{padding-top:50px;}
-    .banner_index .swiper-slide .con h1{padding-top:110px;font-size: 16px}
+  .banner_index .swiper-slide .con h1{padding-top:132px;font-size: 16px}
 	.banner_index .swiper-slide .con h3{font-size:12px;}
 	.banner_index .swiper-slide .con p{font-size:12px;}
 	.banner_index .swiper-slide .con p,.banner_index .swiper-slide .con h3,.banner_index .swiper-slide .con h1{margin-bottom: 0;}
@@ -406,7 +400,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.banner_index .swiper-slide .con .greenbtn, .swiper-slide .con .whitebtn{margin-right:10px;}
 	.greenbtn,.bluebtn,.whitebtn{padding:5px 10px;font-size:12px;}
 
-	.right_contact em.icon-phone, .right_contact em.icon-top, .right_contact em.icon-qq{font-size:25px;}
+	.right_contact em.icon-phone, .right_contact em.icon-top,.right_contact em.icon-qq{font-size:25px;}
 
 	.icon-qq{width:25px;height:25px;}
 	.right_contact p{padding:5px;}
@@ -414,7 +408,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 
 	.main_product li{height:auto;width:92%;padding-bottom:20px;display: block;margin:0 auto;}
 	.main_product li.tdun{margin:10px auto;width:92%;height:auto;top:auto;}
-	.main_product li .info{margin:10px;padding:10px;text-align: left;}
+	.main_product li .info{padding:10px;text-align: left;}
 	.main_product li .info p{width:100%;padding:0 20px;margin:0;}
 	.main_product li .info span{display: none;}
 	.main_product li div.parameter{padding:0;margin:10px;padding-top:10px; padding-left:10%;display: none;}
@@ -423,16 +417,12 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.main_product li h2{padding-top:10px;display:none;}
 	.main_product li h4 dfn{font-size:16px;}
 	.main_product li .bluebtn{padding:5px 20px;left:auto;right:auto;bottom:0; position: relative;box-shadow:none;}
-	.tc h2,p{display: none;}
+	.tc{left: 0px;}
 
-
+	.top52{position:relative;left: 0px;}
 	.icon-hot{width:40px;height:40px;top:-4px;right:0;}
 	.title{padding:0 15px;}
 	.title h2{font-size:20px;}
-	.icon_log{position: relative;top:28px;left:-20px;}
-	.icon_log em{font-size: 17px;}
-	.main_title_log {position: relative; left:140px; top:-5px;padding-bottom: 20px;padding-top: 0px}
-	.main_title_log h1{font-size:17px;font-weight: normal;}
 	.mgtb100{margin:50px 0;}
 	.tdun_tab{font-size: 14px;height:60px;}
 	.tdun_tab li{width:24%;line-height:25px; position: relative;}
@@ -445,7 +435,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.pro_feature{margin:20px 0 40px 0;}
 	.pro_feature li{width:100%;margin:0;padding:20px;}
 	.pro_feature li i{font-size:70px;}
-	.pro_feature li h2{font-size:16px;}	
+	.pro_feature li h2{font-size:16px;}
 	.news_more{bottom:0;right:20px;}
 	.mgtb40{margin:0;}
 	.pdtb60{padding:20px;}
@@ -455,9 +445,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.news_index div span{display: block;position: relative;left:0}
 
 
-	
-	.service_txt wrapper{font-size: 35px;}
-	.partner{ text-align: center; }
+	.partner { text-align: center; }
 	.partner li{width:30%;}
 	.partner li img{width:100%;height:auto;}
 	.phone_submit_bar{font-size:16px;}
@@ -516,7 +504,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.tdun_newslist dd h4 span{display: block;position: relative;right:auto;left:0;}
 	.news_detail{margin-top:-20px;padding:20px;}
 	.news_detail h1{font-size:20px;}
-    .news_detail .info{margin-top:20px;}
+  .news_detail .info{margin-top:20px;}
 	.logo_ab{float: none;display: block;margin:0 auto;display: none;}
 	.aboutus_con{padding:0 20px;}
 	.aboutus_con .title span{font-size:18px;top:2px;}
@@ -524,7 +512,6 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.certificate,.contactus{margin:20px 0;}
 	.certificate li{margin-right:2.5%;padding:10px;}
 	.contactus dt,.contactus dd{width:100%;}
-
 	
 	.left_con .title{margin-top:30px;}
 	.mgtb{margin-top:30px;}
@@ -551,5 +538,5 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
   .video-player-wrapper .con{padding:10px;}
   .video-player-wrapper .closer-handler{margin-bottom:5px;}
   .social-share{text-align: center;margin:0;}
-.spacebox{position: relative;margin:90px 0 30px 0;}
+	.spacebox{position: relative;margin:90px 0 30px 0;}
  }

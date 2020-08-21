@@ -96,7 +96,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 /*wrapper*/
 .wrapper{width:1200px;margin:0 auto; position: relative;}
 .title{position: relative;}
-.title h2{font-size:28px;font-weight: normal;}
+.title h2{font-size:28px;font-weight: normal;text-align:center}
 .title p{color:#666;margin-top:10px;}
 .main_title_log {position: relative; left:480px;padding-top: 15px;}
 .main_title_log h1{font-size:28px;font-weight: normal;}
@@ -126,7 +126,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 .tdun_tab li em{color:rgba(10, 118, 214, 0.2);margin-right:10px;font-size:35px;}
 .tdun_tab li.active,.tdun_tab li.active em,.tdun_tab li:hover,.tdun_tab li:hover em{color:#0a76d6;}
 .icon_log{position: relative;top:38px;left:-38px;}
-.icon_log em{font-size: 28px;}
+.icon_log em{font-size: 28px;position: relative;left: 474px;}
 
 .tdun_tab li.swiper-pagination-bullet-active em,.tdun_tab li.swiper-pagination-bullet-active{color:#0a76d6;}
  li.swiper-pagination-bullet{background: none;width:auto;height:100%;opacity: 1;border-radius: 0;}
@@ -375,7 +375,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
   .topbar .nav a.on{color:#0a76d6;border-bottom:4px solid #0a76d6;}
   .menu_app{display:inline-block;color:#fff;margin-right:10px;}
   .menu_app em{font-size:20px;}
-  #top{position: fixed;top:0;width:100%;left:0;z-index:99999;}
+   #top{position: fixed;top:0;width:100%;left:0;z-index:99999;}
     .top .topbar{height:52px;}
     .topbar .logo{width:60px;}
     .topbar .login-link{ vertical-align: top; position: absolute;right:10px;}
@@ -389,7 +389,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 
 	.banner_03 .con{background:#14004d url("https://cdn.jsdelivr.net/gh/AOSOUL/supercdns@master/banner03.png"/*tpa=http://www.kirincloud.net/images/banner03.png*/) right 75% no-repeat;background-size:50% auto;}
 	.banner_index{padding-top:50px;}
-  .banner_index .swiper-slide .con h1{padding-top:132px;font-size: 16px}
+    .banner_index .swiper-slide .con h1{padding-top:132px;font-size: 16px}
 	.banner_index .swiper-slide .con h3{font-size:12px;}
 	.banner_index .swiper-slide .con p{font-size:12px;}
 	.banner_index .swiper-slide .con p,.banner_index .swiper-slide .con h3,.banner_index .swiper-slide .con h1{margin-bottom: 0;}
@@ -418,11 +418,11 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.main_product li h4 dfn{font-size:16px;}
 	.main_product li .bluebtn{padding:5px 20px;left:auto;right:auto;bottom:0; position: relative;box-shadow:none;}
 	.tc{left: 0px;}
-
+	.tdun_cont_technical .swiper-slide{margin-top:34px;}
 	.top52{position:relative;left: 0px;}
 	.icon-hot{width:40px;height:40px;top:-4px;right:0;}
 	.title{padding:0 15px;}
-	.title h2{font-size:20px;}
+	.title h2{font-size: 17px;position: relative;top: 47px;margin-bottom: 58px;margin-top: 13px;margin-left: 15px;text-align: center;}
 	.mgtb100{margin:50px 0;}
 	.tdun_tab{font-size: 14px;height:60px;}
 	.tdun_tab li{width:24%;line-height:25px; position: relative;}
@@ -440,12 +440,11 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.mgtb40{margin:0;}
 	.pdtb60{padding:20px;}
 	.news_index{margin-bottom:40px;}
-  .news_index div{padding:10px 0;}
-	.news_index div h3{font-size: 14px;width:100%;}
+    .news_index div{padding:10px 0;}
+ 	.news_index div h3{font-size: 14px;width:100%;}
 	.news_index div span{display: block;position: relative;left:0}
-
-
-	.partner { text-align: center; }
+    .icon_log em{font-size: 17px;position: absolute;text-align:center;margin-top: 54.8px;margin-left: -346px;}
+	.partner {text-align: center; }
 	.partner li{width:30%;}
 	.partner li img{width:100%;height:auto;}
 	.phone_submit_bar{font-size:16px;}
@@ -462,10 +461,10 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.freebox .close{right:0;}
 	.tdun_advantages li{width:100%;padding:20px;min-height:auto;}
 	.right_con{display: none;}
-	.left_con{width:100%;padding:5px 5px 25px 5px;margin:0;}
+	.left_con{width:100%;padding:33px 5px 25px 5px;margin:0;}
 	.btn_space{margin-left:15px;}
 	.btn_space a{margin-top:10px;}
-  .wappadding{padding:0;}
+    .wappadding{padding:0;}
 	
 	.tdun_advantages li{border:0;border-bottom:1px solid #f2f2f2;margin: 0;}
 	.tdun_advantages li:first-child{border-top:1px solid #f2f2f2;}

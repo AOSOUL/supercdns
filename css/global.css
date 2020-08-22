@@ -422,7 +422,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.top52{position:relative;left: 0px;}
 	.icon-hot{width:40px;height:40px;top:-4px;right:0;}
 	.title{padding:0 15px;}
-	.title h2{font-size: 17px;position: relative;top: 47px;margin-bottom: 58px;margin-top: 13px;margin-left: 15px;text-align: center;}
+	.title h2{font-size: 17px;position: relative;top: 47px;margin-bottom: 58px;margin-top: -4px;margin-left: 15px;text-align: center;}
 	.mgtb100{margin:50px 0;}
 	.tdun_tab{font-size: 14px;height:60px;}
 	.tdun_tab li{width:24%;line-height:25px; position: relative;}
@@ -443,7 +443,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
     .news_index div{padding:10px 0;}
  	.news_index div h3{font-size: 14px;width:100%;}
 	.news_index div span{display: block;position: relative;left:0}
-    .icon_log em{font-size: 17px;position: absolute;text-align:center;margin-top: 54.8px;margin-left: -346px;}
+    .icon_log em{font-size: 17px;position: absolute;text-align: center;margin-top: 36.8px;margin-left: 114px;left: 0px;}
 	.partner {text-align: center; }
 	.partner li{width:30%;}
 	.partner li img{width:100%;height:auto;}

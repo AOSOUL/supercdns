@@ -364,18 +364,16 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 /*app*/
 @media (max-width: 768px){ 
 	body{font-size:.85rem;}
-    .top .topbar,.banner_index .swiper-slide .con,.wrapper{
-        width:100%;
-    }
-  .top52{margin-top:-110px !important;margin-bottom: 120px;}
-  .topbar{content:'';width:100%;height:80px;position: absolute;top:0;left:0; background: rgba(255,255,255,.1);z-index:3;}
-  .topbar .nav {display:none;background: #fff;color:#333;position: absolute;left:0;width:100%;top:52px;margin-left: 0;box-shadow: 1px 1px 10px rgba(0,0,0,.5); }
-  .topbar .nav a{display: block;font-size:16px;border-bottom:1px solid #f2f2f2;color:#333;}
-  .top{padding-bottom:52px;}
-  .topbar .nav a.on{color:#0a76d6;border-bottom:4px solid #0a76d6;}
-  .menu_app{display:inline-block;color:#fff;margin-right:10px;}
-  .menu_app em{font-size:20px;}
-   #top{position: fixed;top:0;width:100%;left:0;z-index:99999;}
+    .top .topbar,.banner_index .swiper-slide .con,.wrapper{width:100%;}
+    .top52{margin-top:-110px !important;margin-bottom: 120px;}
+    .topbar{content:'';width:100%;height:80px;position: absolute;top:0;left:0; background: rgba(255,255,255,.1);z-index:3;}
+    .topbar .nav {display:none;background: #fff;color:#333;position: absolute;left:0;width:100%;top:52px;margin-left: 0;box-shadow: 1px 1px 10px rgba(0,0,0,.5); }
+    .topbar .nav a{display: block;font-size:16px;border-bottom:1px solid #f2f2f2;color:#333;}
+    .top{padding-bottom:52px;}
+    .topbar .nav a.on{color:#0a76d6;border-bottom:4px solid #0a76d6;}
+    .menu_app{display:inline-block;color:#fff;margin-right:10px;}
+    .menu_app em{font-size:20px;}
+    #top{position: fixed;top:0;width:100%;left:0;z-index:99999;}
     .top .topbar{height:52px;}
     .topbar .logo{width:60px;}
     .topbar .login-link{ vertical-align: top; position: absolute;right:10px;}
@@ -422,7 +420,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
 	.top52{position:relative;left: 0px;}
 	.icon-hot{width:40px;height:40px;top:-4px;right:0;}
 	.title{padding:0 15px;}
-	.title h2{font-size: 17px;position: relative;top: 47px;margin-bottom: 58px;margin-top: -4px;margin-left: 15px;text-align: center;}
+	.title h2{font-size: 17px;position: relative;top: 0px;left: 0px;margin-bottom: 5px;margin-top: -5%;margin-left: 7%;text-align: center;}
 	.mgtb100{margin:50px 0;}
 	.tdun_tab{font-size: 14px;height:60px;}
 	.tdun_tab li{width:24%;line-height:25px; position: relative;}
@@ -443,7 +441,7 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
     .news_index div{padding:10px 0;}
  	.news_index div h3{font-size: 14px;width:100%;}
 	.news_index div span{display: block;position: relative;left:0}
-    .icon_log em{font-size: 17px;position: absolute;text-align: center;margin-top: 36.8px;margin-left: 114px;left: 0px;}
+    .icon_log em{font-size: 17px;position: relative;text-align: center;left: 0px;top: 0px;margin-top: -16.5%;margin-left: 32.5%;}
 	.partner {text-align: center; }
 	.partner li{width:30%;}
 	.partner li img{width:100%;height:auto;}
@@ -526,16 +524,16 @@ a.bluebtn,a.greenbtn,a.whitebtn,a.white-btn:hover,.bluebtn_small:hover,a.bluebtn
    .about_banner{min-height:300px;padding-top:18%;background:url("../images/aboutus.jpg"/*tpa=http://www.kirincloud.net/images/aboutus.jpg*/) center center no-repeat }
    .about_banner .info{width:85%;padding-right:10px;}
    .about_banner  h1{font-size:20px;}
-    .safe_img{padding:20px 0;}
+   .safe_img{padding:20px 0;}
    .safe_img div.img1{background-size: 80% auto;min-height:150px;height:auto; }
-  .safe_img div.img2{ background-size: 80% auto;min-height:230px;height:auto; }
-  .safe_img div.img3{ background-size: 80% auto;min-height:230px;height:auto; }
-  .menu_con li{font-size:14px;padding:10px;}
+   .safe_img div.img2{ background-size: 80% auto;min-height:230px;height:auto; }
+   .safe_img div.img3{ background-size: 80% auto;min-height:230px;height:auto; }
+   .menu_con li{font-size:14px;padding:10px;}
   #allmap {height:200px;}
   .qq_con,.phone_con{display: none;}
   .video-player-wrapper{top:20%}
   .video-player-wrapper .con{padding:10px;}
   .video-player-wrapper .closer-handler{margin-bottom:5px;}
   .social-share{text-align: center;margin:0;}
-	.spacebox{position: relative;margin:90px 0 30px 0;}
+  .spacebox{position: relative;margin:90px 0 30px 0;}
  }
